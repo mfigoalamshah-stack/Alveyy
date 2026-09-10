@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int nilai;
+    cout<<"masukkan nilai ";
+    cin>>nilai;
+
+    if (nilai > 94) {
+        cout<<"nilai mu adalah A";
+    }
+    else if (nilai > 84) {
+        cout<<"nilai mu adalah B";
+    }
+    else if (nilai > 74) {
+        cout<<"nilai mu adalah C";
+    }
+    else if (nilai < 74) {
+        cout<<"nilai mu adalah D";
+    }
+}
