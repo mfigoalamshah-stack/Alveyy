@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int a,b,c;
+    cout<<"masukan harga barang kesatu :  ";
+    cin>>a;
+    cout<<"masukan harga benda kedua :";
+    cin>>b;
+
+    c=a+b;
+    if(c>200) {
+        cout<<c-20;
+    }
+    else if(c>100) {
+        cout<<c-0,5;
+    }
+    else {
+        cout<<"diskon mu hangus";
+    }
+    cout<<c;
+    return 0;
+}
