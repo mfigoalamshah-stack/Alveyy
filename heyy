@@ -1,0 +1,27 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() {
+    string nama, sekolah, lagi;
+
+    do {
+        cout << "Masukkan nama    : ";
+        getline(cin, nama);
+
+        cout << "Masukkan sekolah : ";
+        getline(cin, sekolah);
+
+        cout << "Tersimpan: " << nama << " - " << sekolah << "\n\n";
+
+        cout << "Input lagi? (y/n): ";
+        getline(cin, lagi);
+        cout << "\n";
+    } while (lagi == "y" || lagi == "Y");
+
+    cout << "Selesai. Tekan Enter untuk keluar...";
+    cin.get();
+
+    return 0;
+}
